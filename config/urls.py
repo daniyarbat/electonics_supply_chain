@@ -39,12 +39,9 @@ urlpatterns = [
     # admin
     path('admin/', admin.site.urls),
     # users
-    path('users/', include("users.urls")),
+    path('users/', include('users.urls')),
     # main
     path('', include('main.urls')),
-    # JWT
-    path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     # Docs
     path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
