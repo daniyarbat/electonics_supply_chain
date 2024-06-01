@@ -39,3 +39,5 @@
 - Создать базу данных для работы с проектом CREATE DATABASE ваша_база_данных;
 - Применить миграции python manage.py migrate
 - Открыть командную строку и запустить python manage.py runserver
+- Создать пользователей с помощью кастомных команд: python manage.py csu/cmu/cu
+- Загрузить данные с помощью фикстуры: python manage.py loaddata <название_файла>.json
