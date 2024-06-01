@@ -3,6 +3,7 @@ from rest_framework.filters import SearchFilter
 from rest_framework.response import Response
 
 from main.models import Supplier, Network, Product
+from main.paginators import SupplyChainPaginator
 from main.permissions import IsActive
 from main.serializers import SupplierSerializer, NetworkSerializer, ProductSerializer
 
@@ -12,6 +13,7 @@ class SupplierViewSet(viewsets.ModelViewSet):
     queryset = Supplier.objects.all()
     filter_backends = [SearchFilter]  # фильтр поиска по стране
     filterset_fields = ['country']
+    pagination_class = SupplyChainPaginator
     permission_classes = [IsActive]
 
     def update(self, request, *args, **kwargs):
@@ -30,10 +32,12 @@ class SupplierViewSet(viewsets.ModelViewSet):
 class NetworkViewSet(viewsets.ModelViewSet):
     serializer_class = NetworkSerializer
     queryset = Network.objects.all()
+    pagination_class = SupplyChainPaginator
     permission_classes = [IsActive]
 
 
 class ProductViewSet(viewsets.ModelViewSet):
     serializer_class = ProductSerializer
     queryset = Product.objects.all()
+    pagination_class = SupplyChainPaginator
     permission_classes = [IsActive]
