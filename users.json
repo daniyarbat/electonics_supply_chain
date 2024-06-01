@@ -1,0 +1,97 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$iVsFbeHUB03jMH6td3Rke3$Weh6n9cXIy9yTDaTN15Vfl7Jdtpy1HBSmZHj1oqqTK4=",
+      "last_login": "2024-06-01T17:38:51.240Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "date_joined": "2024-06-01T14:34:31.014Z",
+      "first_name": "admin",
+      "last_name": "admin",
+      "email": "admin@retail.pro",
+      "phone": null,
+      "avatar": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$EItYoZdhjqL2AVKhtBFYY6$rRgvkWF0VMc/TKXTYddaTXOueBCDc/FC3xTpSwFKNJM=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-06-01T14:35:52.897Z",
+      "first_name": "user",
+      "last_name": "user",
+      "email": "user@retail.pro",
+      "phone": null,
+      "avatar": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3LN39S3QNc7W6NQD7VDyFF$Pw5NYyru2w2wh5W1hRkzUAl3SVKeAK1Tl46lOaQv0Xc=",
+      "last_login": "2024-06-01T16:34:01.873Z",
+      "is_superuser": false,
+      "is_staff": true,
+      "date_joined": "2024-06-01T15:56:26.576Z",
+      "first_name": "moder",
+      "last_name": "moder",
+      "email": "moder@retail.pro",
+      "phone": null,
+      "avatar": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "123qaz",
+      "last_login": "2024-06-01T17:48:06Z",
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-06-01T17:47:35Z",
+      "first_name": "Test1",
+      "last_name": "Test1",
+      "email": "test1@test.pro",
+      "phone": "77777777",
+      "avatar": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "qaz123",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-06-01T17:48:23Z",
+      "first_name": "test2",
+      "last_name": "test2",
+      "email": "test2@test2.ru",
+      "phone": "8888888888",
+      "avatar": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

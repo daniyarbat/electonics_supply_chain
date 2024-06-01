@@ -1,0 +1,142 @@
+[
+  {
+    "model": "main.supplier",
+    "pk": 1,
+    "fields": {
+      "name": "Coca Cola",
+      "email": "retail@coca-cola.com",
+      "country": "USA",
+      "city": "Chicago",
+      "street": "Franklin",
+      "building": "133",
+      "debt": "0.00"
+    }
+  },
+  {
+    "model": "main.supplier",
+    "pk": 2,
+    "fields": {
+      "name": "Pepsi",
+      "email": "sales@pepsi.com",
+      "country": "USA",
+      "city": "Virginia",
+      "street": "St. Andrew",
+      "building": "123",
+      "debt": "10000.00"
+    }
+  },
+  {
+    "model": "main.network",
+    "pk": 1,
+    "fields": {
+      "name": "�� ������",
+      "email": "some@some.ru",
+      "country": "������",
+      "city": "����",
+      "street": "����������",
+      "building": "11",
+      "supplier": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "main.network",
+    "pk": 2,
+    "fields": {
+      "name": "���������",
+      "email": "5@pyaterka.ru",
+      "country": "������",
+      "city": "�����������",
+      "street": "����",
+      "building": "1",
+      "supplier": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "main.network",
+    "pk": 3,
+    "fields": {
+      "name": "Small",
+      "email": "retail@small.kz",
+      "country": "Kazakhstan",
+      "city": "Almaty",
+      "street": "Tole Bi",
+      "building": "71",
+      "supplier": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "main.network",
+    "pk": 4,
+    "fields": {
+      "name": "Magnum",
+      "email": "mg@mg.com",
+      "country": "Russia",
+      "city": "Moscow",
+      "street": "Lenina",
+      "building": "12",
+      "supplier": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "main.network",
+    "pk": 5,
+    "fields": {
+      "name": "Jon Snow",
+      "email": "snow@snow.joe",
+      "country": "North",
+      "city": "Wall",
+      "street": "Wall street",
+      "building": "1",
+      "supplier": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 1,
+    "fields": {
+      "name": "Coca Cola",
+      "model": "1 ����",
+      "release_date": "2024-05-01",
+      "network": 1,
+      "created_at": "2024-06-01T15:43:29.879Z"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 2,
+    "fields": {
+      "name": "Pepsi",
+      "model": "0.5",
+      "release_date": "2024-06-01",
+      "network": 2,
+      "created_at": "2024-06-01T15:43:57.414Z"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 3,
+    "fields": {
+      "name": "Seven Up",
+      "model": "2",
+      "release_date": "2024-06-01",
+      "network": 5,
+      "created_at": "2024-06-01T17:43:57.199Z"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 4,
+    "fields": {
+      "name": "Fanta",
+      "model": "1.5",
+      "release_date": "2024-06-01",
+      "network": 3,
+      "created_at": "2024-06-01T17:44:18.582Z"
+    }
+  }
+]
